@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Concert One', cursive;
+}
+body{
+    background-color: black;
+}
+.input{
+    width: 200px;
+    height: 34px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #ffd300;
+    color: white;
+    font-size: 17px;
+}
+.main{
+   text-align: center;
+   margin-top: 80px;
+}
+.head{
+    text-align: center;
+    margin-top: 20px;
+    color: chartreuse;
+}
+#showData{
+    color: white;
+}
+.lab {
+    color: dodgerblue;
+}
+.button{
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: chartreuse;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+}
+input::placeholder{
+    color: black;
+}
