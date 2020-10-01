@@ -10,10 +10,12 @@ const add = () => {
     let percentage = (totalMarks/400) * 100;
 
     if(percentage <= 100 && percentage >= 80){
-        grade = 'A'
+        grade = 'A+'
     }else if(percentage <= 79 && percentage >= 60) {
-        grade = 'B'
-    }else if(percentage <= 59 && percentage >= 40) {
+        grade = 'A'
+    }else if(percentage <= 59 && percentage >= 50) {
+            grade = 'C'
+    }else if(percentage <= 49 && percentage >= 40) {
             grade = 'C'
     }else{
         grade = 'F'
